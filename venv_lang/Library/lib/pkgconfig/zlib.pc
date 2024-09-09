@@ -1,0 +1,13 @@
+prefix=D:/GenerativeAI/Projects/Langchain_learning/venv_lang/Library
+exec_prefix=D:/GenerativeAI/Projects/Langchain_learning/venv_lang/Library
+libdir=D:/GenerativeAI/Projects/Langchain_learning/venv_lang/Library/lib
+sharedlibdir=D:/GenerativeAI/Projects/Langchain_learning/venv_lang/Library/lib
+includedir=D:/GenerativeAI/Projects/Langchain_learning/venv_lang/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
