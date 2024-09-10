@@ -21,3 +21,8 @@ node_modules/
 
 .venv_lang/
 venv_lang/
+
+Chroma_db/
+.Chroma_db/
+.faiss_local/
+faiss_local/
